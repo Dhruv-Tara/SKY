@@ -198,7 +198,6 @@ async def shellrunner(client, message):
 @app.on_message(filters.user(OWNERS) & filters.command("stats"))
 async def stats(_,msg : Message)-> None:
     total_users = get_all_users()
-    await msg.reply_photo(
-        "https://graph.org//file/9fd5a14d7f0a7f0a031f3.jpg",
-        caption = f"Current Enmu Stats\n~ Total Users : `{total_users}`"
+    await msg.reply_text(
+        f"Current Stats\n~ Total Users : `{total_users}`"
     )
