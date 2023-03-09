@@ -1,0 +1,6 @@
+pyrogram
+google-reverse-search
+requests
+InspiroQuotes
+psycopg2
+TgCrypto
