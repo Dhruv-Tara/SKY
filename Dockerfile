@@ -2,7 +2,7 @@ FROM debian:11
 FROM python:3-slim-buster
 FROM nikolaik/python-nodejs:latest
 
-WORKDIR /EnmuBot/
+WORKDIR /SKY/
 
 RUN /usr/local/bin/python -m pip install --upgrade pip
 RUN apt-get -y install git
