@@ -18,7 +18,7 @@ async def alive(_,msg:Message) -> None:
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Support",url="https://t.me/TitanHeadQuaters"),
+                    InlineKeyboardButton("Support",url="https://t.me/monarchs_alley"),
                     InlineKeyboardButton("Help",url=f"https://t.me/{X.username}?start=help")
                 ]
             ]
